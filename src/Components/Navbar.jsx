@@ -30,7 +30,7 @@ function moveToTop () {
       <div className='md:flex items-center justify-between bg-gradient-to-r from-cyan-950 to-gray-800 py-4 md:px-10 px-7'>
         <Link to="/" className="font-bold text-2xl cursor-pointer flex items-center font-[Sans-serif] text-gray-800">
           {/* icons */}
-          <span className='text-xl font-bold text-blue-400 mr-1 pt-2 flex items-center'><h1 className='ml-2'>SB</h1> </span>
+          <span className='text-xl font-bold text-cyan-400 mr-1 pt-2 flex items-center'><h1 className='ml-2'>SB</h1> </span>
         </Link>
         <div onClick={() => setopen(!open)} className=' text-3xl absolute right-8 top-7 cursor-pointer md:hidden'>
           {open ? <FaWindowClose className='text-white' /> : <FaBars className='text-white'/>}
@@ -40,7 +40,7 @@ function moveToTop () {
             Links.map((link) => (
               <li key={link.name} className='md:ml-8 text-xl md:my-0 my-7 ' onClick={() => setopen(!open)}>
 
-                <Link to={link.linkname} className='text-white hover:text-blue-400 duration-500 flex' onClick={() => moveToTop()}><h1 className='mt-1 pr-1'>{link.icon}</h1>{link.name}</Link>
+                <Link to={link.linkname} className='text-white hover:text-cyan-400 duration-500 flex' onClick={() => moveToTop()}><h1 className='mt-1 pr-1'>{link.icon}</h1>{link.name}</Link>
               </li>
             ))
           }
