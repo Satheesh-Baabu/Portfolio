@@ -9,7 +9,7 @@ function First() {
     // Simulate a data fetch
     setTimeout(() => {
       setIsLoading(false);
-    }, 3000); // Adjust the timeout as needed
+    }, 2000); // Adjust the timeout as needed
   }, []);
   return (
     <>{isLoading?<Loader /> :<Home/>}

@@ -3,7 +3,7 @@ import React from 'react'; // Import your CSS file for styling
 const Loader = () => {
     
   return (
-    <div className='grid h-screen place-items-center '>
+    <div className='grid h-screen place-items-center'>
         
         <div className="loader "></div>
     </div>

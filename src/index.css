@@ -31,7 +31,7 @@ input[type=number] {
   animation: l6 2s linear infinite;
 }
 .loader:before {
-  content: "Loading";
+  content: "Welcome to Satheesh Portfolio";
 }
 @keyframes l6 {
   0%     {background-size: 0                200%;background-position:0 0   ,100% 0   }
@@ -39,3 +39,28 @@ input[type=number] {
   50.01% {background-size: calc(60% + .5lh) 200%;background-position:0 100%,100% 100%}
   100%   {background-size: 0                200%;background-position:0 100%,100% 100%}
 }    
+
+.circleanim::after{
+  /* overflow: hidden; */
+  content: "";
+  position: absolute;
+  
+  border-radius: 9999px;
+  inset: 5px;
+}
+.circleanim::before{
+  content:"";
+  position: absolute;
+  width: 200px;
+  height: 140%;
+  background: linear-gradient(#22D3EE,#22D3EE);
+  animation:rotate 4s linear infinite;
+}
+@keyframes rotate{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
