@@ -1,5 +1,6 @@
 import React from 'react'
 import About from './About'
+import Contact from './Contact'
 import Navbar from '../Components/Navbar'
 import Profile from '../assets/SatheeshBaabu.png'
 
@@ -24,6 +25,7 @@ function Home() {
 
       </div>
       <About />
+      <Contact />
     </div>
   )
 }

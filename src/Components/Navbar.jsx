@@ -35,12 +35,12 @@ function moveToTop () {
         <div onClick={() => setopen(!open)} className=' text-3xl absolute right-8 top-7 cursor-pointer md:hidden'>
           {open ? <FaWindowClose className='text-white' /> : <FaBars className='text-white'/>}
         </div>
-        <ul className={`md:flex flex-col md:flex-row items-center md:pb-0  pb-12 absolute md:static  md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0  transition-all duration-500 ease-in ${open ? 'top-20 opacity-100' : 'top-[-490px] md:opacity-100'} [&>*:first-child]:ml-0`}>
+        <ul className={`md:flex flex-col md:flex-row items-center bg-gradient-to-r from-cyan-950 to-gray-800 md:bg-none md:pb-0  pb-12 absolute md:static  md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0  transition-all duration-500 ease-in ${open ? 'top-20 opacity-100' : 'top-[-490px] md:opacity-100'} [&>*:first-child]:ml-0`}>
           {
             Links.map((link) => (
               <li key={link.name} className='md:ml-8 text-xl md:my-0 my-7 ' onClick={() => setopen(!open)}>
 
-                <Link to={link.linkname} className='text-white hover:text-cyan-400 duration-500 flex' onClick={() => moveToTop()}><h1 className='mt-1 pr-1'>{link.icon}</h1>{link.name}</Link>
+                <Link to={link.linkname} className='text-white  hover:text-cyan-400 duration-500 flex' onClick={() => moveToTop()}><h1 className='mt-1 pr-1'>{link.icon}</h1>{link.name}</Link>
               </li>
             ))
           }
