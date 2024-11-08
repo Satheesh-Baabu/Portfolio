@@ -1,5 +1,6 @@
 import React from 'react'
 import confetti from 'canvas-confetti'
+import Developer from '../Components/Developer'
 function Contact() {
   function submitclicked() {
     confetti({
@@ -10,6 +11,7 @@ function Contact() {
   }
   let inputcolor = "text-white placeholder:text-slate-200 border-2 border-cyan-600 w-full p-2 rounded my-2 font-mono focus:outline-none bg-transparent"
   return (
+    <>
     <div className='bg-gradient-to-r from-cyan-950 to-gray-800 h-screen w-full px-12'>
       <h1 className='text-4xl md:text-5xl mb-10 font-medium font-serif text-white'>Contact <span className='text-cyan-500'>ME!</span></h1>
       <div className='flex flex-col md:flex-row w-full text-center'>
@@ -27,6 +29,9 @@ function Contact() {
         </div>
       </div>
     </div>
+    
+    <Developer />
+    </>
   )
 }
 
