@@ -1,5 +1,6 @@
 import React from 'react'
 import Profile from '../assets/SatheeshBaabu.png'
+import Button from '../Components/Button'
 function About() {
     return (
         <div className='px-12 bg-gradient-to-r from-cyan-950 to-gray-800 md:h-screen w-full'>
@@ -18,7 +19,8 @@ function About() {
                     <h1 className='text-5xl mb-10 font-medium font-serif text-cyan-400 md:block hidden'>About <span className='text-white'>ME</span></h1>
 
                     {/* <h1 className='text-5xl text-cyan-400 md:block hidden mb-10'>About Me</h1> */}
-                    <p className='text-white text-justify indent-20'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor voluptas odio nulla facere, repellat consequuntur hic. Totam unde maxime iusto eveniet libero. Error non rem commodi nam odio ab hic. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga enim, rerum dolores eum eligendi inventore et beatae, excepturi in cum facilis repellendus iste praesentium magnam aut asperiores, ipsam fugiat hic. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum reiciendis, sapiente possimus hic in omnis, tempora fuga minus iure velit consectetur, fugiat quas eaque reprehenderit natus ad sed unde maiores.</p>
+                    <p className='text-white text-justify indent-20 mb-10'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor voluptas odio nulla facere, repellat consequuntur hic. Totam unde maxime iusto eveniet libero. Error non rem commodi nam odio ab hic. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga enim, rerum dolores eum eligendi inventore et beatae, excepturi in cum facilis repellendus iste praesentium magnam aut asperiores, ipsam fugiat hic. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum reiciendis, sapiente possimus hic in omnis, tempora fuga minus iure velit consectetur, fugiat quas eaque reprehenderit natus ad sed unde maiores.</p>
+                    <Button content={"Resume >"}/>
                 </div>
             </div>
         </div>

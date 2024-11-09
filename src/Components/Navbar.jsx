@@ -9,6 +9,9 @@ function Navbar() {
   let Links = [
     { icon: <FaHome />, name: "Home", linkname: "/" },
     { icon: <FaInfoCircle />, name: "About", linkname: "/about" },
+    {icon:<FaBars/>,name:"Education", linkname:"/education"},
+    {icon:<FaBars/>,name:"Skills", linkname:"/skills"},
+    {icon:<FaBars/>,name:"Projects", linkname:"/projects"},
     { icon: <IoMdContact />, name: "Contact", linkname: "/contact" }
 ];
 let [open, setopen] = useState(false)
