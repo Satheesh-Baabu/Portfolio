@@ -3,6 +3,7 @@ import About from './About'
 import Contact from './Contact'
 import Navbar from '../Components/Navbar'
 import Profile from '../assets/SatheeshBaabu.png'
+import ContactButtons from '../Components/ContactButtons'
 
 
 function Home() {
@@ -13,8 +14,9 @@ function Home() {
         <Navbar />
         <div className='pt-24 px-10 h-screen flex flex-col md:flex-row place-items-center space-evenly'>
           <div className=' basis-3/4'>
-            <h1 className='text-white md:text-6xl sm:text-4xl text-3xl font-bold'>Hi, I'm Satheesh Baabu</h1>
-            <h3 className='text-cyan-400 md:text-5xl sm:text-4xl text-2xl mt-4 font-semibold'>Aspiring Web Developer</h3>
+            <h1 className='text-white md:text-6xl sm:text-4xl text-3xl font-bold'>Hi, I'm <span className='text-cyan-400 text-4xl sm:text-5xl'>Satheesh Baabu</span></h1>
+            <h3 className='text-white md:text-5xl sm:text-4xl text-4xl mt-4 font-semibold'>Aspiring Web Developer</h3>
+            <ContactButtons btnprop={"sm:mt-20 mt-10 mr-10"}/>
             {/* <p className='text-white mt-9'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas fuga eos debitis quaerat molestias ipsum aspernatur culpa id nostrum aliquam, ipsam harum sunt est ex? Dolores vel quod facilis sapiente.</p> */}
           </div>
           <div className='basis-1/2  place-items-center'>
