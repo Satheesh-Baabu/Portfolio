@@ -13,7 +13,7 @@ function Contact() {
   return (
     <>
     <div className='bg-gradient-to-r from-cyan-950 to-gray-800 h-screen w-full px-12'>
-      <h1 className='text-4xl md:text-5xl mb-10 font-medium font-serif text-white'>Contact <span className='text-cyan-500'>ME!</span></h1>
+      <h1 className='text-4xl md:text-5xl mb-10 font-medium font-serif text-white pt-12'>Contact <span className='text-cyan-500'>ME!</span></h1>
       <div className='flex flex-col md:flex-row w-full text-center'>
         <div className='w-3/4 border'>
           <p>content</p>

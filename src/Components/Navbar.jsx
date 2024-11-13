@@ -1,18 +1,20 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './ComponentsCss/Navbar.css'
-import { FaBars } from "react-icons/fa6";
+import { FaBars,FaDiagramProject,FaPhone } from "react-icons/fa6";
 import { IoMdContact } from "react-icons/io";
 import { FaInfoCircle,FaWindowClose,FaHome} from "react-icons/fa";
+import { IoSchool } from "react-icons/io5";
+
 
 function Navbar() {
   let Links = [
     { icon: <FaHome />, name: "Home", linkname: "/" },
-    { icon: <FaInfoCircle />, name: "About", linkname: "/about" },
-    {icon:<FaBars/>,name:"Education", linkname:"/education"},
+    { icon: <IoMdContact />, name: "About", linkname: "/about" },
+    {icon:<IoSchool />,name:"Education", linkname:"/education"},
     {icon:<FaBars/>,name:"Skills", linkname:"/skills"},
-    {icon:<FaBars/>,name:"Projects", linkname:"/projects"},
-    { icon: <IoMdContact />, name: "Contact", linkname: "/contact" }
+    {icon:<FaDiagramProject />,name:"Projects", linkname:"/projects"},
+    { icon: <FaPhone />, name: "Contact", linkname: "/contact" }
 ];
 let [open, setopen] = useState(false)
 
@@ -38,7 +40,7 @@ function moveToTop () {
         <div onClick={() => setopen(!open)} className=' text-3xl absolute right-8 top-7 cursor-pointer md:hidden'>
           {open ? <FaWindowClose className='text-white' /> : <FaBars className='text-white'/>}
         </div>
-        <ul className={`md:flex flex-col md:flex-row items-center bg-gradient-to-r from-cyan-950 to-gray-800 md:bg-none md:pb-0  pb-12 absolute md:static  md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0  transition-all duration-500 ease-in ${open ? 'top-20 opacity-100' : 'top-[-490px] md:opacity-100'} [&>*:first-child]:ml-0`}>
+        <ul className={`md:flex flex-col md:flex-row  w-44 bg-gradient-to-r from-cyan-950 to-gray-800 md:bg-none md:pb-0 pl-5 absolute md:static  md:z-auto z-[-1] right-0 md:w-auto md:pl-0  transition-all duration-500 ease-in ${open ? 'top-20 opacity-100' : 'top-[-490px] md:opacity-100'} [&>*:first-child]:ml-0`}>
           {
             Links.map((link) => (
               <li key={link.name} className='md:ml-8 text-xl md:my-0 my-7 ' onClick={() => setopen(!open)}>

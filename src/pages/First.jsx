@@ -6,13 +6,10 @@ import { useState, useEffect } from 'react';
 function First() {
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
-    // Simulate a data fetch
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 2000); // Adjust the timeout as needed
-  }, []);
+    setTimeout(() => {setIsLoading(false);}, 2000);},[]);
   return (
-    <>{isLoading?<Loader /> :<Home/>}
+    <>
+      {isLoading?<Loader /> :<Home/>}
     </>
   )
 }
