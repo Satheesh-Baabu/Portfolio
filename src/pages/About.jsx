@@ -3,7 +3,7 @@ import Profile from '../assets/SatheeshBaabu.png'
 import Button from '../Components/Button'
 function About() {
     return (
-        <div className='px-12 bg-gradient-to-r from-cyan-950 to-gray-800 md:h-screen w-full'>
+        <div className='px-12 bg-gradient-to-r from-cyan-950 to-gray-800 md:h-max w-full pt-10' id="about">
             <div className='md:hidden pt-10'>
             <h1 className='text-4xl mb-10 font-medium font-serif text-cyan-400'>About <span className='text-white'>ME</span></h1>
             </div>
