@@ -73,18 +73,3 @@ input[type=number] {
 
 
 /* Card in project */
-.flip-card {
-  perspective: 1000px; /* Gives the 3D effect */
-}
-
-.flip-card-inner {
-  transform-style: preserve-3d; /* Keeps 3D transformations in place */
-}
-
-.backface-hidden {
-  backface-visibility: hidden; /* Ensures sides don’t show through */
-}
-
-.rotate-y-180 {
-  transform: rotateY(180deg); /* Flip effect */
-}
