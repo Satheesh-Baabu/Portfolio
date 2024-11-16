@@ -12,7 +12,7 @@ import Projects from './Projects'
 function Home() {
   
   return (
-    <div id="home">
+    <div id="home" className='selection:text-white selection:bg-cyan-400'>
       <div className='bg-gradient-to-r from-cyan-950 to-gray-800 w-full md:h-max overflow-hidden'>
         <Navbar />
         <div className='pt-24 px-10 h-fit flex flex-col md:flex-row place-items-center space-evenly'>

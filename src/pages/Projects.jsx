@@ -5,13 +5,13 @@ function Projects() {
     {
       title: 'Portfolio',
       description: 'Explore my accomplished portfolio projects, showcasing expertise and creativity in one click.',
-      demoLink: 'https://satheeeshbaabuportfolio.netlify.app/home',
-      githubLink: 'https://github.com/Satheesh-Baabu/Portfolio',
+      demoLink: 'https://satheeeshbaabuportfolio.netlify.app/',
+      githubLink: 'https://github.com/Satheesh-Baabu/Portfolio/',
       image:"/portfolio.png" ,
     },
     {
       title: 'Website V Print Tech',
-      description: 'Discover my expertise in one click with my weather app, showcasing creativity and skill in delivering accurate forecasts.',
+      description: 'Discover my expertise in one click with the website for the V Print Tech Company.',
       demoLink: 'https://vprinttech.netlify.app/',
       githubLink: 'https://github.com/Satheesh-Baabu/InternshipFrontend/',
       image: "/vprint.png",
