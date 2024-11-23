@@ -7,6 +7,7 @@ import ContactButtons from '../Components/ContactButtons'
 import Education from './Education'
 import Skills from './Skills'
 import Projects from './Projects'
+import Typewriter from '../Components/Typewriter'
 
 
 function Home() {
@@ -18,7 +19,7 @@ function Home() {
         <div className='pt-24 px-10 h-fit flex flex-col md:flex-row place-items-center space-evenly'>
           <div className=' basis-3/4'>
             <h1 className='text-white md:text-6xl sm:text-4xl text-3xl font-bold'>Hi, I'm <span className='text-cyan-400 text-4xl sm:text-5xl'>Satheesh Baabu</span></h1>
-            <h3 className='text-white md:text-5xl sm:text-4xl text-4xl mt-4 font-semibold'>Aspiring Web Developer</h3>
+            <h3 className='text-white md:text-5xl sm:text-4xl text-4xl mt-4 font-semibold'><Typewriter phrases={["Web Developer.","MERN Developer.","Full Stack Developer."]} period={1500}/></h3>
             <ContactButtons btnprop={"sm:mt-20 mt-10 mr-5"}/>
             {/* <p className='text-white mt-9'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas fuga eos debitis quaerat molestias ipsum aspernatur culpa id nostrum aliquam, ipsam harum sunt est ex? Dolores vel quod facilis sapiente.</p> */}
           </div>
