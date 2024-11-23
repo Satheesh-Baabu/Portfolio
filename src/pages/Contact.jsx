@@ -4,11 +4,14 @@ import Developer from '../Components/Developer'
 import ContactButtons from '../Components/ContactButtons'
 function Contact() {
   function submitclicked() {
+    alert("Submitted successfully.")
+
     confetti({
       particleCount: 250,
       spread: 100
     }
     )
+
   }
   let inputcolor = "text-white placeholder:text-slate-200 border-2 border-cyan-600 w-full p-2 rounded my-2 font-mono focus:outline-none bg-transparent"
   return (
