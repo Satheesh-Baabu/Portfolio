@@ -34,10 +34,10 @@ function moveToTop () {
 
     <div className="shadow-md w-full fixed top-0 left-0 z-50">
       <div className='md:flex items-center justify-between bg-gradient-to-r from-cyan-950 to-gray-800 py-4 md:px-10 px-7'>
-        <AnchorLink href="#home" className="font-bold text-2xl cursor-pointer flex items-center font-[Sans-serif] text-gray-800">
+        <div className="font-bold text-2xl cursor-pointer flex items-center font-[Sans-serif] text-gray-800">
           {/* icons */}
-          <span className='text-xl font-bold text-cyan-400 mr-1 pt-2 flex items-center'><h1 className='ml-2'>SB</h1> </span>
-        </AnchorLink>
+          <span className='text-xl font-bold text-cyan-400 mr-1 pt-2 flex items-center'><h1 className='ml-2'><AnchorLink href="#home">SB</AnchorLink></h1> </span>
+        </div>
         <div onClick={() => setopen(!open)} className=' text-3xl absolute right-8 top-7 cursor-pointer md:hidden'>
           {open ? <FaWindowClose className='text-white' /> : <FaBars className='text-white'/>}
         </div>
