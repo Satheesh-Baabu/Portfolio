@@ -42,7 +42,7 @@ function Contact() {
     setErrors(validationErrors);
     if (Object.keys(validationErrors).length === 0) {
       // axios.post("http://localhost:3000/contact",formData)
-      axios.post("https://portfolioserver-1vcb.onrender.com",formData)
+      axios.post("https://portfolioserver-1vcb.onrender.com/contact",formData)
       .then((result)=>{
         console.log(result)
         alert("Submitted successfully.");
