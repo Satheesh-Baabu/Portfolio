@@ -35,12 +35,12 @@ const Typewriter = ({ phrases, period = 2000 }) => {
   }, [text, isDeleting, delta, loopNum, phrases, period]);
 
   return (
-    <h1>
+    <div>
       <a href="#" className="typewrite">
         <span className="wrap">Aspiring &nbsp;{text}</span>
         <span className="border-r-2 border-cyan-500 animate-blink"></span>
       </a>
-    </h1>
+    </div>
   );
 };
 export default Typewriter;

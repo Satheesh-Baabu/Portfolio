@@ -27,8 +27,8 @@ function ImageCard(data) {
             
                 <p className="md:text-md lg:text-xl text-md">{data.description}</p>
                 <div className="flex my-5">
-                    <a href={data.demoLink} className="text-lg text-cyan-100 mr-4 hover:underline"><i class="fa-solid fa-link"></i> Demo Link </a>
-                    <a href={data.githubLink} className="text-lg text-cyan-100 mr-4 hover:underline"><i class="fa-brands fa-github"></i> Github</a>
+                    <a href={data.demoLink} className="text-lg text-cyan-100 mr-4 hover:underline"><i className="fa-solid fa-link"></i> Demo Link </a>
+                    <a href={data.githubLink} className="text-lg text-cyan-100 mr-4 hover:underline"><i className="fa-brands fa-github"></i> Github</a>
                 </div>
                 <h2 className="md:text-4xl xl:text-5xl text-2xl sm:text-3xl font-bold">{data.title}</h2>
             </div>
