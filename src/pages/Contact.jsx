@@ -74,8 +74,8 @@ function Contact() {
             <input type='text' id='subject' placeholder='Subject' name="subject" className={inputcolor} onChange={handleChange} />
             {errors.subject && <><i class="fa-solid fa-circle-exclamation" style={{ color: "red" }}></i><span className={errorsdisp}>{errors.subject}</span></>}
             <textarea rows={4} placeholder='Your Message' name="message" onChange={handleChange} className="text-white placeholder:text-slate-200 border-2 border-cyan-600 p-2 rounded my-2 font-mono focus:outline-none bg-transparent  w-full"></textarea>
-
-            <button className='text-white border-2 border-cyan-600 rounded p-1 w-24 bg-gradient-to-r from-cyan-950 to-gray-800 hover:text-cyan-600 hover:border-white text-lg font-normal font-mono' type='submit'>Submit</button>
+            <div className='text-center'>
+            <button className='text-white border-2 border-cyan-600 rounded p-1 w-24 bg-gradient-to-r from-cyan-950 to-gray-800 hover:text-cyan-600 hover:border-white text-lg font-normal font-mono' type='submit'>Submit</button></div>
           </form>
         </div>
       </div>
