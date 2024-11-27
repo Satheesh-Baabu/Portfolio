@@ -8,6 +8,7 @@ import Education from './Education'
 import Skills from './Skills'
 import Projects from './Projects'
 import Typewriter from '../Components/Typewriter'
+import TopArrow from '../Components/TopArrow'
 
 
 function Home() {
@@ -34,6 +35,7 @@ function Home() {
       <Skills />
       <Projects/>
       <Contact />
+      <TopArrow />
     </div>
   )
 }

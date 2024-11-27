@@ -58,7 +58,7 @@ function Contact() {
     }
   }
   let errorsdisp = "text-cyan-500 text-start pl-1"
-  let inputcolor = "text-white placeholder:text-slate-200 border-2 border-cyan-600 w-full p-2 rounded my-2 font-mono focus:outline-none bg-transparent"
+  let inputcolor = "text-white placeholder:text-slate-200 border-2 border-cyan-600 w-full p-2 rounded my-2 font-mono outline-none bg-transparent focus:ring-1 focus:ring-cyan-300 "
   return (
     <div id="contact" className='h-max bg-gradient-to-r from-cyan-950 to-gray-800 w-full pt-10'>
       <div className=' w-full px-12'>
@@ -73,9 +73,9 @@ function Contact() {
             {errors.mobileno && <><i class="fa-solid fa-circle-exclamation" style={{ color: "red" }}></i><span className={errorsdisp}>{errors.mobileno}</span></>}
             <input type='text' id='subject' placeholder='Subject' name="subject" className={inputcolor} onChange={handleChange} />
             {errors.subject && <><i class="fa-solid fa-circle-exclamation" style={{ color: "red" }}></i><span className={errorsdisp}>{errors.subject}</span></>}
-            <textarea rows={4} placeholder='Your Message' name="message" onChange={handleChange} className="text-white placeholder:text-slate-200 border-2 border-cyan-600 p-2 rounded my-2 font-mono focus:outline-none bg-transparent  w-full"></textarea>
+            <textarea rows={4} placeholder='Your Message' name="message" onChange={handleChange} className="text-white placeholder:text-slate-200 border-2 border-cyan-600 p-2 rounded my-2 font-mono focus:outline-none bg-transparent  w-full focus:ring-1 focus:ring-cyan-300"></textarea>
             <div className='text-center'>
-            <button className='text-white border-2 border-cyan-600 rounded p-1 w-24 bg-gradient-to-r from-cyan-950 to-gray-800 hover:text-cyan-600 hover:border-white text-lg font-normal font-mono' type='submit'>Submit</button></div>
+            <button className='text-white border-2 border-cyan-600 rounded p-1 w-24 bg-gradient-to-r from-cyan-950 to-gray-800 hover:text-cyan-600 hover:border-white text-lg font-normal font-mono hover:scale-110 ease-out duration-150' type='submit'>Submit</button></div>
           </form>
         </div>
       </div>
