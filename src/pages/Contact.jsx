@@ -44,12 +44,14 @@ function Contact() {
       // axios.post("http://localhost:3000/contact",formData)
       axios.post("https://portfolioserver-1vcb.onrender.com/contact",formData)
       .then((result)=>{
-        console.log(result)
+        console.log(result);
+        
         alert("Submitted successfully.");
         confetti({
           particleCount: 250,
           spread: 100
         });
+        setformData({ fullname: '', email: '', mobileno: '', subject: '', message: '', });
         e.target.reset();
       })
       .catch((err)=>{console.log(err)})

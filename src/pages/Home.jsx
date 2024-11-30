@@ -25,7 +25,7 @@ function Home() {
             {/* <p className='text-white mt-9'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas fuga eos debitis quaerat molestias ipsum aspernatur culpa id nostrum aliquam, ipsam harum sunt est ex? Dolores vel quod facilis sapiente.</p> */}
           </div>
           <div className='basis-1/2  place-items-center'>
-            <img src={Profile} alt="NO Profile" className='md:size-full rounded-full' />
+            <img src={Profile} alt="NO Profile" className='md:size-full rounded-full ' />
           </div>
         </div>
 
