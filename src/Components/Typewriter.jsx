@@ -37,7 +37,7 @@ const Typewriter = ({ phrases, period = 2000 }) => {
   return (
     <div>
       <a href="#" className="typewrite">
-        <span className="wrap">Aspiring &nbsp;{text}</span>
+        <span className="wrap leading-normal">Aspiring {text}</span>
         <span className="border-r-2 border-cyan-500 animate-blink"></span>
       </a>
     </div>

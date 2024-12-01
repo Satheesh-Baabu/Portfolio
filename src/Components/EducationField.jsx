@@ -3,12 +3,16 @@ import React from "react";
 const EducationField = () => {
     return (
         <>
-            <div className="w-full flex ">
+            <div className="w-full md:flex border-l-2 border-cyan-500 md:border-0 relative">
+            <div className="absolute border-t-2 w-10 left-0 top-[25%] border-cyan-500 md:hidden" />
+
 
                 {/* Timeline Line */}
                 <div className="px-5 flex-1 relative">
+                <div className="absolute left-[-0.50rem] top-0 w-3.5 h-3.5 bg-cyan-500 rounded-full drop-shadow-md shadow-cyan-400 md:hidden" />
 
-                    <div className="absolute border-t-2 w-10 right-0 top-[50%] border-cyan-500" />
+
+                    <div className="absolute border-t-2 w-10 right-0 top-[50%] border-cyan-500 md:block hidden" />
                     <div className="flex justify-center align-center  h-full">
                         <img
                             src="/Secondary.svg" // replace with your image path
@@ -17,9 +21,9 @@ const EducationField = () => {
                         />
                     </div>
                 </div>
-                <div className="border-l-2 border-cyan-500 relative flex-1  flex" >
+                <div className="md:border-l-2 border-cyan-500 relative flex-1  flex" >
                     <div className="pl-10  relative">
-                        <div className="absolute left-[-0.50rem] top-0 w-3.5 h-3.5 bg-cyan-500 rounded-full drop-shadow-md shadow-cyan-400" />
+                        <div className="absolute left-[-0.50rem] top-0 w-3.5 h-3.5 bg-cyan-500 rounded-full drop-shadow-md shadow-cyan-400 hidden md:block" />
 
                         <div className="flex items-center gap-10 h-full">
                             <div className="flex-1">
@@ -37,9 +41,22 @@ const EducationField = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-full  flex ">
-                {/* Timeline Line */}
-                <div className="flex items-center gap-10 flex-1 p-5 ">
+            <div className="w-full flex flex-col md:flex-row-reverse border-l-2 border-cyan-500 md:border-0">
+            <div className="md:border-l-2 border-cyan-500 relative flex-1 flex md:pb-10">
+                    <div className="pl-10  relative ">
+                        <div className="absolute left-[-0.50rem] top-[0rem] w-3.5 h-3.5 bg-cyan-500 rounded-full" />
+                        <div className="absolute border-t-2 w-10 left-0 top-[50%] border-cyan-500 " />
+                        <div className="flex h-full align-center justify-center w-full h-full">
+                            <img
+                                src="/highereducation.svg"
+                                alt="Noimage"
+                                className="rounded-lg " width={500}
+                            />
+                        </div>
+
+                    </div>
+                </div>
+                <div className="flex items-center gap-10 flex-1 pl-10 ">
                     <div className="flex-1 ">
                         <h2 className="text-2xl font-bold text-cyan-500 ">Higher Seconday Education</h2>
                         <p className="text-gray-400 ">2020-2022</p>
@@ -54,25 +71,49 @@ const EducationField = () => {
 
                 </div>
 
-                <div className="border-l-2 border-cyan-500 relative flex-1 flex pb-10">
-                    <div className="pl-10  relative ">
-                        <div className="absolute left-[-0.50rem] top-[0rem] w-3.5 h-3.5 bg-cyan-500 rounded-full" />
-                        <div className="absolute border-t-2 w-10 left-0 top-[50%] border-cyan-500 " />
-                        <div className="flex h-full align-center justify-center w-full h-full">
-                            <img
-                                src="/highereducation.svg"
-                                alt="ProCodrr"
-                                className="rounded-lg " width={500}
-                            />
-                        </div>
-
-                    </div>
-                </div>
+                
             </div>
-            <div className="w-full flex ">
+            <div className="w-full md:flex border-l-2 border-cyan-500 md:border-0 relative">
+            <div className="absolute border-t-2 w-10 left-0 top-[25%] border-cyan-500 md:hidden" />
+
 
                 {/* Timeline Line */}
                 <div className="px-5 flex-1 relative">
+                <div className="absolute left-[-0.50rem] top-0 w-3.5 h-3.5 bg-cyan-500 rounded-full drop-shadow-md shadow-cyan-400 md:hidden" />
+
+
+                    <div className="absolute border-t-2 w-10 right-0 top-[50%] border-cyan-500 md:block hidden" />
+                    <div className="flex justify-center align-center  h-full">
+                        <img
+                            src="/collegeq.svg" // replace with your image path
+                            alt="Noimage"
+                            className="rounded-lg" width={500}
+                        />
+                    </div>
+                </div>
+                <div className="md:border-l-2 border-cyan-500 relative flex-1  flex" >
+                    <div className="pl-10  relative">
+                        <div className="absolute left-[-0.50rem] top-0 w-3.5 h-3.5 bg-cyan-500 rounded-full drop-shadow-md shadow-cyan-400 hidden md:block" />
+
+                        <div className="flex items-center gap-10 h-full">
+                            <div className="flex-1">
+                                <h2 className="text-2xl font-bold text-cyan-500">B.Sc (Computer Science)</h2>
+                                <p className="text-gray-400">2022-2025</p>
+                                <p className="text-gray-300 mb-4">
+                                Ayya Nadar Janaki Ammal College, Sivakasi.
+                                </p>
+                                <p className="text-gray-100 mb-4">
+                                Pursuing a Bachelor’s degree in Computer Science, specializing in software engineering and development.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/* <div className="w-full md:flex ">
+
+                <div className="px-5 flex-1 relative ">
 
                     <div className="absolute border-t-2 w-10 right-0 top-[50%] border-cyan-500" />
                     <div className="flex justify-center align-center  h-full">
@@ -96,7 +137,7 @@ const EducationField = () => {
                                 </p>
                                 <p className="text-gray-100 mb-4">
                                     Pursuing a Bachelor’s degree in Computer Science, specializing in software engineering and development.                        </p>
-                                {/* <div className="flex flex-wrap gap-2">
+                                 <div className="flex flex-wrap gap-2">
                                     {[
                                         "react.js",
                                         "express.js",
@@ -115,13 +156,13 @@ const EducationField = () => {
                                             #{tag}
                                         </span>
                                     ))}
-                                </div> */}
+                                </div> 
                             </div>
 
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
         </>
     );

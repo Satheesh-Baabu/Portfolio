@@ -19,10 +19,12 @@ function Home() {
         <Navbar />
         <div className='pt-24 px-10 h-fit flex flex-col md:flex-row place-items-center space-evenly'>
           <div className=' basis-3/4'>
-            <h1 className='text-white md:text-6xl sm:text-4xl text-3xl font-bold'>Hi, I'm <span className='text-cyan-400 text-4xl sm:text-5xl'>Satheesh Baabu</span></h1>
-            <h3 className='text-white md:text-5xl sm:text-4xl text-4xl mt-4 font-semibold'><Typewriter phrases={["Web Developer.","MERN Developer.","Full Stack Developer."]} period={1500}/></h3>
-            <ContactButtons btnprop={"sm:mt-20 mt-10 mr-5"}/>
-            {/* <p className='text-white mt-9'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas fuga eos debitis quaerat molestias ipsum aspernatur culpa id nostrum aliquam, ipsam harum sunt est ex? Dolores vel quod facilis sapiente.</p> */}
+            <h1 className='text-white md:text-6xl sm:text-4xl text-4xl font-semibold'>Hi, I'm <span className='text-cyan-400 text-4xl sm:text-6xl font-bold font-serif'>Satheesh Baabu</span></h1>
+            <h3 className='text-white md:text-5xl sm:text-4xl text-4xl mt-4 font-semibold'><Typewriter phrases={["Web Developer","MERN Stack Developer","Full Stack Developer","App Developer"
+            ]} period={1500}/></h3>
+            <p className='text-white mt-9 md:text-lg'>I'm a passionate UI/UX designer with a mission to create delightful and intuitive digital experiences. </p> 
+            <ContactButtons btnprop={"sm:mt-10 mt-5 mr-5"}/>
+             
           </div>
           <div className='basis-1/2  place-items-center'>
             <img src={Profile} alt="NO Profile" className='md:size-full rounded-full ' />

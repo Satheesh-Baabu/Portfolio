@@ -5,19 +5,25 @@ function Skills() {
   const skillsdata = [
     {
       title: 'Programming Languages & Scripts',
-      image:["/html-5.svg","/css-3.svg","/js.svg","/java.svg",] ,
+      image:["/html.svg","/css.svg","/js.svg","/java.svg",] ,
+      names:["HTML","CSS","JavaScript","Java"],
     },
     {
       title: 'Frameworks and Libraries',
-      image: ["/react.svg","/expressjs.svg","/node-js.svg","tailwind-css.svg"],
+      image: ["/react.svg","/expressjs.svg","/nodejs.svg","tailwind-css.svg"],
+      names:["React.js","Express.js","Node.js","TailwindCSS"],
+
     },
     {
       title:"Databases",
-      image:["/mysql.svg","/mongodb.svg"] 
+      image:["/mysql.svg","/mongodb.svg"] ,
+      names:["MySQL","MongoDB"],
     },
     {
       title:"Version Control Tools",
-      image:["/git.svg","/github1.svg"] 
+      image:["/git.svg","/github1.svg"],
+      names:["HTML","CSS","JavaScript","Java"],
+ 
     }
   ];
   return (
