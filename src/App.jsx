@@ -1,29 +1,20 @@
 import { Route,Routes,BrowserRouter} from 'react-router-dom'
-
+import Admin from './pages/Admin'
+import AdminFeedback from './pages/AdminFeedback'
 import First from './pages/First'
-import Contact from './pages/Contact'
-import Form from './pages/form'
-import About from './pages/About'
-import Skills from './pages/Skills'
-import Education from './pages/Education'
-import Projects from './pages/Projects'
+
 function App() {
   
   
   return (
     <>
-      {/* <BrowserRouter>
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<First/>}/>
-          <Route path="/about" element={<About/>}/>
-          <Route path="/skills" element={<Skills/>}/>
-          <Route path="/education" element={<Education/>}/>
-          <Route path="/projects" element={<Projects/>}/>
-          <Route path="/contact" element={<Contact/>}/>
-          <Route path='/form' element={<Form/>}/>
+          <Route path="/admin" element={<Admin/>}/>
+          <Route path='/admin/feedback' element={<AdminFeedback/>}/>
         </Routes>
-      </BrowserRouter> */}
-      <First />
+      </BrowserRouter>
     </>
   )
 }
