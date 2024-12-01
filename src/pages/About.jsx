@@ -11,7 +11,7 @@ function About() {
 
                 <div className=' h-auto md:w-1/2 flex place-items-center justify-center my-10'>
                     <div className='md:w-96 md:h-96 w-64 h-64 rounded-full
-                inline-flex items-center justify-center circleanim relative overflow-hidden after:bg-gradient-to-r '>
+                inline-flex items-center justify-center circleanim relative overflow-hidden after:bg-gradient-to-r drop-shadow-lg'>
                         <img src={Profile} alt="NO Image" className=' h-full p-5 rounded-full z-10' />
                     </div>
                 </div>

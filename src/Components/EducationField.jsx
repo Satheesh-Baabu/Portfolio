@@ -13,11 +13,11 @@ const EducationField = () => {
 
 
                     <div className="absolute border-t-2 w-10 right-0 top-[50%] border-cyan-500 md:block hidden" />
-                    <div className="flex justify-center align-center  h-full">
+                    <div className="flex justify-center align-center  h-full hover:scale-105 ease-out duration-500">
                         <img
                             src="/Secondary.svg" // replace with your image path
                             alt="ProCodrr"
-                            className="rounded-lg" width={500}
+                            className="rounded-lg " width={500}
                         />
                     </div>
                 </div>
@@ -46,7 +46,7 @@ const EducationField = () => {
                     <div className="pl-10  relative ">
                         <div className="absolute left-[-0.50rem] top-[0rem] w-3.5 h-3.5 bg-cyan-500 rounded-full" />
                         <div className="absolute border-t-2 w-10 left-0 top-[50%] border-cyan-500 " />
-                        <div className="flex h-full align-center justify-center w-full h-full">
+                        <div className="flex h-full align-center justify-center w-full h-full hover:scale-105 ease-out duration-500">
                             <img
                                 src="/highereducation.svg"
                                 alt="Noimage"
@@ -83,7 +83,7 @@ const EducationField = () => {
 
 
                     <div className="absolute border-t-2 w-10 right-0 top-[50%] border-cyan-500 md:block hidden" />
-                    <div className="flex justify-center align-center  h-full">
+                    <div className="flex justify-center align-center  h-full hover:scale-105 ease-out duration-500">
                         <img
                             src="/collegeq.svg" // replace with your image path
                             alt="Noimage"

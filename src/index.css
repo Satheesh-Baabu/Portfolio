@@ -53,7 +53,7 @@ input[type=number] {
   position: absolute;
   width: 200px;
   height: 140%;
-  background: linear-gradient(#22D3EE,#22D3EE);
+  background: linear-gradient(#01c8ff,#5cc0ff);
   animation:rotate 4s linear infinite;
 }
 @keyframes rotate{
