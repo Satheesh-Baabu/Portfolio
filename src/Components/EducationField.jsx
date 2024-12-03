@@ -33,8 +33,7 @@ const EducationField = () => {
                                     S.H.N.V. Matriculation Higher Secondary School, Sivakasi.
                                 </p>
                                 <p className="text-gray-100 mb-4">
-                                    Completed my Secondary School with 85%.
-                                </p>
+                                Successfully completed with an <b>84%</b> score, building a strong foundation in academics and problem-solving skills                                </p>
                             </div>
 
                         </div>
@@ -64,7 +63,7 @@ const EducationField = () => {
                             S.H.N.V. Matriculation Higher Secondary School, Sivakasi.
                         </p>
                         <p className="text-gray-100 mb-4">
-                            Completed my High Secondary School with Major in Computer Science, Maths, Physics and Chemistry.
+                        Accomplished higher secondary studies with <b>92%</b>, excelling in core subjects like <b>Computer Science, Mathematics, Physics, and Chemistry</b>, highlighting a passion for technology and science.
                         </p>
 
                     </div>
@@ -85,7 +84,7 @@ const EducationField = () => {
                     <div className="absolute border-t-2 w-10 right-0 top-[50%] border-cyan-500 md:block hidden" />
                     <div className="flex justify-center align-center  h-full hover:scale-105 ease-out duration-500">
                         <img
-                            src="/collegeq.svg" // replace with your image path
+                            src="/collegeq.svg" 
                             alt="Noimage"
                             className="rounded-lg" width={500}
                         />
@@ -103,7 +102,7 @@ const EducationField = () => {
                                 Ayya Nadar Janaki Ammal College, Sivakasi.
                                 </p>
                                 <p className="text-gray-100 mb-4">
-                                Pursuing a Bachelor’s degree in Computer Science, specializing in software engineering and development.
+                                Currently pursuing a Bachelor’s degree in Computer Science, gaining expertise in programming, algorithms, data structures, and modern technologies to build innovative solutions.
                                 </p>
                             </div>
 

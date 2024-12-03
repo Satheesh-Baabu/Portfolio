@@ -1,10 +1,12 @@
 import React, { useState } from 'react'
 // import { Link } from 'react-router-dom'
 import './ComponentsCss/Navbar.css'
-import { FaBars,FaDiagramProject,FaPhone } from "react-icons/fa6";
+import { FaBars,FaPhone } from "react-icons/fa6";
 import { IoMdContact } from "react-icons/io";
+import { BsGraphUpArrow } from "react-icons/bs";
 import { FaWindowClose,FaHome} from "react-icons/fa";
-import { IoSchool } from "react-icons/io5";
+import { FaGraduationCap } from "react-icons/fa";
+import { TbBrandGoogleAnalytics } from "react-icons/tb"
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 
@@ -12,9 +14,9 @@ function Navbar() {
   let Links = [
     { icon: <FaHome />, name: "Home", linkname: "#home" },
     { icon: <IoMdContact />, name: "About", linkname: "#about" },
-    {icon:<IoSchool />,name:"Education", linkname:"#education"},
-    {icon:<FaBars/>,name:"Skills", linkname:"#skills"},
-    {icon:<FaDiagramProject />,name:"Projects", linkname:"#projects"},
+    {icon:<FaGraduationCap />,name:"Education", linkname:"#education"},
+    {icon:<TbBrandGoogleAnalytics />,name:"Skills", linkname:"#skills"},
+    {icon:<BsGraphUpArrow />,name:"Projects", linkname:"#projects"},
     { icon: <FaPhone />, name: "Contact", linkname: "#contact" }
 ];
 let [open, setopen] = useState(false)

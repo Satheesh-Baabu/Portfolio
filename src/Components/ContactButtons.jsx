@@ -7,6 +7,8 @@ function ContactButtons(props) {
         <button className={sty}><a href="mailto:satheeshbaabum@gmail.com?subject=Mail%20from%20Portfolio"><i className="fa-solid fa-envelope"></i></a></button>
         <button className={sty}><a href='https://github.com/Satheesh-Baabu/' target="_blank"><i className="fa-brands fa-github"></i></a></button>
         <button className={sty}><a href='https://www.linkedin.com/in/satheeshbaabum/' target="_blank"><i className="fa-brands fa-linkedin"></i></a></button>
+        
+        <button className={sty}><a href="https://api.whatsapp.com/send?phone=9360301475&text=Hello" target="_blank"><i className="fa-brands fa-whatsapp"></i></a></button>
     </div>
   )
 }

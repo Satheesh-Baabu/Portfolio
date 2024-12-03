@@ -83,7 +83,7 @@ function Contact() {
       </div>
       <div className='flex flex-col place-items-center w-full mb-10'>
         <h1 className='text-4xl md:text-5xl mb-10 font-medium font-serif text-white pt-12'>Let's <span className='text-cyan-500'>Connect!</span></h1>
-        <ContactButtons mxprop={"mx-5"} />
+        <ContactButtons mxprop={"mx-2"} />
       </div>
       <Developer />
     </div>
