@@ -38,8 +38,14 @@ function Projects() {
       image: "/vprint.png",
       tech:["React.js","Node.js","Express.js","MongoDB","Tailwind CSS"]
     },
-  
-    // Add more projects here
+    {
+      title: 'Smart Restaurant Management System',
+      description: `A full-stack MERN web app for restaurant ordering. Features real-time order tracking, cart management, payment integration (Razorpay) and a user-friendly UI.`,
+      demoLink: 'https://msvrestaurant.vercel.app/',
+      githubLink: 'https://github.com/Satheesh-Baabu/ProjectRestaurantFrontend',
+      image: "/msvrestaurant.png",
+      tech:["MERN Stack","Tailwind CSS","Socket.io","Razorpay integration"]
+    },
   ];
   return (
     <div id="projects" className='h-max bg-gradient-to-r from-cyan-950 to-gray-800 w-full pt-10 px-12'>
