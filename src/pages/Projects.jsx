@@ -19,6 +19,14 @@ function Projects() {
       tech:["HTML","CSS","Animation Effects"],
     },
     {
+      title: 'TO-DO List',
+      description: 'Building a basic To-DO List at the time of learing React.js without responsive layout.',
+      demoLink: 'https://todolistsatheesh.netlify.app/',
+      githubLink: 'https://github.com/Satheesh-Baabu/TodoList',
+      image:"/todolist.png" ,
+      tech:["React.js","CSS","Redux"],
+    },
+    {
       title: 'Portfolio',
       description: 'Explore my accomplished portfolio projects, showcasing expertise and creativity in one click.',
       demoLink: 'https://satheeeshbaabuportfolio.netlify.app/',
@@ -39,7 +47,7 @@ function Projects() {
       tech:["React.js","Node.js","Express.js","MongoDB","Tailwind CSS"]
     },
     {
-      title: 'Smart Restaurant Management System',
+      title: 'Smart Restaurant Management and Ordering System',
       description: `A full-stack MERN web app for restaurant ordering. Features real-time order tracking, cart management, payment integration (Razorpay) and a user-friendly UI.`,
       demoLink: 'https://msvrestaurant.vercel.app/',
       githubLink: 'https://github.com/Satheesh-Baabu/ProjectRestaurantFrontend',

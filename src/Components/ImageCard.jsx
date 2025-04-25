@@ -29,11 +29,13 @@ function ImageCard(data) {
                         <a href={data.demoLink} target='_blank' className="text-lg text-cyan-100 mr-4 hover:underline"><i className="fa-solid fa-link"></i> Demo Link </a>
                         <a href={data.githubLink} target='_blank'  className="text-lg text-cyan-100 mr-4 hover:underline"><i className="fa-brands fa-github"></i> Github</a>
                     </div>
-                    <h2 className="md:text-4xl xl:text-5xl text-2xl sm:text-3xl font-bold">{data.title}</h2>
+                    {/* <h2 className="md:text-4xl xl:text-5xl text-2xl sm:text-3xl font-bold">{data.title}</h2> */}
                 </div>
             </div>
             <div>
-                <div className={`${isHovered ? 'hidden' : 'text-3xl font-bold text-white mt-2 "'}`}>{data.title}</div>
+                {/* <div className={`${isHovered ? 'hidden' : 'text-3xl font-bold text-white mt-2 "'}`}>{data.title}</div> */}
+                <div className={'text-3xl font-bold text-white mt-2'}>{data.title}</div>
+
                 <div className="flex flex-wrap gap-2 mt-4">
                     {data.tech.map((tag, index) => (
                     <span key={index} className="text-sm bg-gray-800 text-gray-300 px-3 py-1 rounded-full">{tag}</span>))
