@@ -1,5 +1,5 @@
 import React from 'react'
-import Profile from '../assets/SatheeshBaabu.png'
+import Profile from '../assets/Satheeshpic.png'
 import Button from '../Components/Button'
 function About() {
     return (
