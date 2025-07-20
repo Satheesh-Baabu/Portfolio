@@ -102,7 +102,7 @@ const EducationField = () => {
                                 Ayya Nadar Janaki Ammal College, Sivakasi.
                                 </p>
                                 <p className="text-gray-100 mb-4">
-                                Currently pursuing a Bachelor’s degree in Computer Science, gaining expertise in programming, algorithms, data structures, and modern technologies to build innovative solutions.
+                                Earned a Bachelor’s degree in Computer Science, combining academic knowledge with hands-on experience in programming, data structures, algorithms, and modern development tools.
                                 </p>
                             </div>
 
