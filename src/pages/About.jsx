@@ -4,18 +4,18 @@ import Button from '../Components/Button'
 function About() {
     return (
         <div className='px-12 bg-gradient-to-r from-cyan-950 to-gray-800 md:h-max w-full md:pt-20 ' id="about">
-            <div className='md:hidden pt-10'>
+            <div className='md:hidden pt-10 '>
                 <h1 className='text-4xl mb-10 font-medium font-serif text-cyan-400'>About <span className='text-white'>ME</span></h1>
             </div>
             <div className=' md:flex place-items-center h-full'>
 
-                <div className=' h-auto md:w-1/2 flex place-items-center justify-center my-10'>
+                <div className=' h-auto md:w-1/2 flex place-items-center justify-center my-10 animate-slide-left'>
                     <div className='md:w-96 md:h-96 w-64 h-64 rounded-full
                 inline-flex items-center justify-center circleanim relative overflow-hidden after:bg-gradient-to-r drop-shadow-lg'>
                         <img src={Profile} alt="NO Image" className=' h-full p-5 rounded-full z-10' />
                     </div>
                 </div>
-                <div className='md:w-1/2'>
+                <div className='md:w-1/2 animate-slide-right'>
                     <h1 className='text-5xl mb-10 font-medium font-serif text-cyan-400 md:block hidden'>About <span className='text-white'>ME</span></h1>
 
                     {/* <h1 className='text-5xl text-cyan-400 md:block hidden mb-10'>About Me</h1> */}

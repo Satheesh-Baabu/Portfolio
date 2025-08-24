@@ -18,7 +18,7 @@ function Home() {
       <div className='bg-gradient-to-r from-cyan-950 to-gray-800 w-full md:h-max overflow-hidden'>
         <Navbar />
         <div className='pt-24 px-10 h-fit flex flex-col md:flex-row place-items-center space-evenly'>
-          <div className=' basis-3/4'>
+          <div className=' basis-3/4 animate-slide-left'>
             <h1 className='text-white md:text-6xl sm:text-4xl text-4xl font-semibold'>Hi, I'm <span className='text-cyan-400 text-4xl sm:text-6xl font-bold font-serif'>Satheesh Baabu</span></h1>
             <h3 className='text-white md:text-5xl sm:text-4xl text-4xl mt-4 font-semibold'><Typewriter phrases={["Web Developer","MERN Stack Developer","Full Stack Developer","App Developer"
             ]} period={1500}/></h3>
@@ -26,7 +26,7 @@ function Home() {
             <ContactButtons btnprop={"sm:mt-10 mt-5 md:mr-5 mr-3"}/>
              
           </div>
-          <div className='basis-1/2  place-items-center'>
+          <div className='basis-1/2  place-items-center animate-slide-right'>
             <img src={Profile} alt="NO Profile" className='md:size-full rounded-full ' />
           </div>
         </div>

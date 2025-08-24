@@ -4,12 +4,12 @@ const EducationField = () => {
     return (
         <>
             <div className="w-full md:flex border-l-2 border-cyan-500 md:border-0 relative">
-            <div className="absolute border-t-2 w-10 left-0 top-[25%] border-cyan-500 md:hidden" />
+                <div className="absolute border-t-2 w-10 left-0 top-[25%] border-cyan-500 md:hidden animate-slide-up" />
 
 
                 {/* Timeline Line */}
-                <div className="px-5 flex-1 relative">
-                <div className="absolute left-[-0.50rem] top-0 w-3.5 h-3.5 bg-cyan-500 rounded-full drop-shadow-md shadow-cyan-400 md:hidden" />
+                <div className="px-5 flex-1 relative animate-slide-left">
+                    <div className="absolute left-[-0.50rem] top-0 w-3.5 h-3.5 bg-cyan-500 rounded-full drop-shadow-md shadow-cyan-400 md:hidden" />
 
 
                     <div className="absolute border-t-2 w-10 right-0 top-[50%] border-cyan-500 md:block hidden" />
@@ -21,7 +21,7 @@ const EducationField = () => {
                         />
                     </div>
                 </div>
-                <div className="md:border-l-2 border-cyan-500 relative flex-1  flex" >
+                <div className="md:border-l-2 border-cyan-500 relative flex-1  flex animate-slide-right" >
                     <div className="pl-10  relative">
                         <div className="absolute left-[-0.50rem] top-0 w-3.5 h-3.5 bg-cyan-500 rounded-full drop-shadow-md shadow-cyan-400 hidden md:block" />
 
@@ -33,7 +33,7 @@ const EducationField = () => {
                                     S.H.N.V. Matriculation Higher Secondary School, Sivakasi.
                                 </p>
                                 <p className="text-gray-100 mb-4">
-                                Successfully completed with an <b>84%</b> score, building a strong foundation in academics and problem-solving skills                                </p>
+                                    Successfully completed with an <b>84%</b> score, building a strong foundation in academics and problem-solving skills                                </p>
                             </div>
 
                         </div>
@@ -41,7 +41,7 @@ const EducationField = () => {
                 </div>
             </div>
             <div className="w-full flex flex-col md:flex-row-reverse border-l-2 border-cyan-500 md:border-0">
-            <div className="md:border-l-2 border-cyan-500 relative flex-1 flex md:pb-10">
+                <div className="md:border-l-2 border-cyan-500 relative flex-1 flex md:pb-10 animate-slide-right">
                     <div className="pl-10  relative ">
                         <div className="absolute left-[-0.50rem] top-[0rem] w-3.5 h-3.5 bg-cyan-500 rounded-full" />
                         <div className="absolute border-t-2 w-10 left-0 top-[50%] border-cyan-500 " />
@@ -55,7 +55,7 @@ const EducationField = () => {
 
                     </div>
                 </div>
-                <div className="flex items-center gap-10 flex-1 pl-10 ">
+                <div className="flex items-center gap-10 flex-1 pl-10 animate-slide-left">
                     <div className="flex-1 ">
                         <h2 className="text-2xl font-bold text-cyan-500 ">Higher Seconday Education</h2>
                         <p className="text-gray-400 ">2020-2022</p>
@@ -63,34 +63,34 @@ const EducationField = () => {
                             S.H.N.V. Matriculation Higher Secondary School, Sivakasi.
                         </p>
                         <p className="text-gray-100 mb-4">
-                        Accomplished higher secondary studies with <b>92%</b>, excelling in core subjects like <b>Computer Science, Mathematics, Physics, and Chemistry</b>, highlighting a passion for technology and science.
+                            Accomplished higher secondary studies with <b>92%</b>, excelling in core subjects like <b>Computer Science, Mathematics, Physics, and Chemistry</b>, highlighting a passion for technology and science.
                         </p>
 
                     </div>
 
                 </div>
 
-                
+
             </div>
             <div className="w-full md:flex border-l-2 border-cyan-500 md:border-0 relative">
-            <div className="absolute border-t-2 w-10 left-0 top-[25%] border-cyan-500 md:hidden" />
+                <div className="absolute border-t-2 w-10 left-0 top-[25%] border-cyan-500 md:hidden" />
 
 
                 {/* Timeline Line */}
-                <div className="px-5 flex-1 relative">
-                <div className="absolute left-[-0.50rem] top-0 w-3.5 h-3.5 bg-cyan-500 rounded-full drop-shadow-md shadow-cyan-400 md:hidden" />
+                <div className="px-5 flex-1 relative animate-slide-left">
+                    <div className="absolute left-[-0.50rem] top-0 w-3.5 h-3.5 bg-cyan-500 rounded-full drop-shadow-md shadow-cyan-400 md:hidden" />
 
 
                     <div className="absolute border-t-2 w-10 right-0 top-[50%] border-cyan-500 md:block hidden" />
                     <div className="flex justify-center align-center  h-full hover:scale-105 ease-out duration-500">
                         <img
-                            src="/collegeq.svg" 
+                            src="/collegeq.svg"
                             alt="Noimage"
                             className="rounded-lg" width={500}
                         />
                     </div>
                 </div>
-                <div className="md:border-l-2 border-cyan-500 relative flex-1  flex" >
+                <div className="md:border-l-2 border-cyan-500 relative flex-1  flex animate-slide-right" >
                     <div className="pl-10  relative">
                         <div className="absolute left-[-0.50rem] top-0 w-3.5 h-3.5 bg-cyan-500 rounded-full drop-shadow-md shadow-cyan-400 hidden md:block" />
 
@@ -99,10 +99,10 @@ const EducationField = () => {
                                 <h2 className="text-2xl font-bold text-cyan-500">B.Sc (Computer Science)</h2>
                                 <p className="text-gray-400">2022-2025</p>
                                 <p className="text-gray-300 mb-4">
-                                Ayya Nadar Janaki Ammal College, Sivakasi.
+                                    Ayya Nadar Janaki Ammal College, Sivakasi.
                                 </p>
                                 <p className="text-gray-100 mb-4">
-                                Earned a Bachelor’s degree in Computer Science, combining academic knowledge with hands-on experience in programming, data structures, algorithms, and modern development tools.
+                                    Earned a Bachelor’s degree in Computer Science, combining academic knowledge with hands-on experience in programming, data structures, algorithms, and modern development tools.
                                 </p>
                             </div>
 

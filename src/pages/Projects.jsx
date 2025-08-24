@@ -59,8 +59,8 @@ function Projects() {
     <div id="projects" className='h-max bg-gradient-to-r from-cyan-950 to-gray-800 w-full pt-10 px-12'>
       <h1 className='text-4xl md:text-5xl pb-10 font-medium font-serif text-white pt-12'><span className='text-cyan-500'>My</span> Projects</h1>
       <div className="grid gap-7 grid-cols-1 lg:grid-cols-2">
-            {projectsData.map((project) => (
-              <ImageCard key={project.title} {...project}/>
+            {projectsData.map((project,i) => (
+              <ImageCard key={project.title} {...project} animation={i%2==0?"animate-slide-left":"animate-slide-right"}/>
             ))}
           </div>
     </div>

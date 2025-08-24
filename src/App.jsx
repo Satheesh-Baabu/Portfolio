@@ -3,9 +3,9 @@ import Admin from './pages/Admin'
 import AdminFeedback from './pages/AdminFeedback'
 import First from './pages/First'
 import Navbar from './Components/Navbar'
+import { useEffect } from "react";
 
 function App() {
-  
   
   return (
     <>

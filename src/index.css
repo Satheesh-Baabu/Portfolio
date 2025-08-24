@@ -83,3 +83,29 @@ input[type=number] {
   animation:animatebottom 0.4s
 }
 @keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+/* index.css */
+
+/* Base state */
+.animate-slide-left,
+.animate-slide-right,
+.animate-slide-up {
+  opacity: 0;
+  transition: all 0.8s ease;
+}
+
+/* Variants before entering view */
+.animate-slide-left {
+  transform: translateX(-60px);
+}
+.animate-slide-right {
+  transform: translateX(60px);
+}
+.animate-slide-up {
+  transform: translateY(60px);
+}
+
+/* When in view */
+.in-view {
+  opacity: 1;
+  transform: translate(0, 0);
+}

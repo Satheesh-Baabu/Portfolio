@@ -64,8 +64,8 @@ function Contact() {
   return (
     <div id="contact" className='h-max bg-gradient-to-r from-cyan-950 to-gray-800 w-full pt-10'>
       <div className=' w-full px-12'>
-        <h1 className='text-4xl md:text-5xl mb-10 font-medium font-serif text-white pt-12'>Contact <span className='text-cyan-500'>ME!</span></h1>
-        <div className='flex flex-col md:flex-row w-full justify-center'>
+        <h1 className='text-4xl md:text-5xl mb-10 font-medium font-serif text-white pt-12 animate-slide-left'>Contact <span className='text-cyan-500'>ME!</span></h1>
+        <div className='flex flex-col md:flex-row w-full justify-center animate-slide-right'>
           <form className='md:w-6/12 lg:w-5/12 feedback p-5' onSubmit={submitclicked}>
             <input type='text' id='name' name='fullname' placeholder='Full Name' className={inputcolor} onChange={handleChange} />
             {errors.fullname && <><i class="fa-solid fa-circle-exclamation" style={{ color: "red" }}></i><span className={errorsdisp}>{errors.fullname}</span></>}
@@ -81,7 +81,7 @@ function Contact() {
           </form>
         </div>
       </div>
-      <div className='flex flex-col place-items-center w-full mb-10'>
+      <div className='flex flex-col place-items-center w-full mb-10 animate-slide-up'>
         <h1 className='text-4xl md:text-5xl mb-10 font-medium font-serif text-white pt-12'>Let's <span className='text-cyan-500'>Connect!</span></h1>
         <ContactButtons mxprop={"mx-2"} />
       </div>
